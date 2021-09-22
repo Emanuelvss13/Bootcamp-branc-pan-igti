@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: deepskyblue;
+}
+
+h1{
+  color: darkslategray;
+}
+
+.MainContainer{
+  width: 60%;
+  margin: 2rem auto;
+  background-color: white;
+  padding: 1rem;
+  border: 1px solid darkslategray;
+  border-radius: 1rem;
+}
+
+.SimulationContainer{
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn{
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  align-self: flex-end;
+  border: 0;
+  border-radius: 0.5rem;
+  background-color: deepskyblue;
+  color: darkslategray;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: darkslategray;
+  color: deepskyblue;
+}
+
+.ResultContainer{
+  margin: 2rem 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.table{
+  display: none;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.table th{
+  padding: 0.2rem 1rem;
+  color: darkslategray;
+}
+
+.table td{
+  padding: 0.1rem 1rem;
+}
+
+input{
+  padding: 0.3rem 1rem;
+  font-size: 14px;
+}

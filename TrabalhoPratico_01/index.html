@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Simulação financeira</title>
+</head>
+<body>
+  <main class="MainContainer" >
+    <h1>Simulação finaceira</h1>
+
+    <div class="SimulationContainer">
+      <div style="display: inline-block;" >
+        <label>Valor:
+          <input style="display: block;" id="valor" type="number" name="valor" />
+        </label>        
+      </div>
+      
+      <div style="display: inline-block;" >
+        <label>Prazo (anos):
+          <input style="display: block;" id="prazo" type="number" name="prazo" />
+        </label>
+      </div>
+      
+      <div style="display: inline-block;" >
+        <label>Juros ao ano:
+          <input style="display: block;" id="juros" type="number" name="juros" />
+        </label>
+      </div>
+      
+      <button id="simular" class="btn"> Simular</button>
+    </div>
+
+    <h1>Resultado</h1>
+
+    <div id="result" class="ResultContainer">
+      <div style="display: inline-block;" >
+        <label>Prazo (meses):
+          <input style="display: block;" id="prazoMeses" type="number" />
+        </label>
+      </div>
+
+      <div style="display: inline-block;" >
+        <label>Juros ao mês:
+          <input style="display: block;" id="jurosMes" type="number" />
+        </label>
+      </div>
+
+      <div style="display: inline-block;" >
+        <label>Juros acumulados:
+          <input style="display: block;" id="jurosAcumulado" type="number"/>
+        </label>
+      </div>
+
+    </div>
+    
+    <table id="table" class="table" >
+      <thead>
+        <tr>
+          <th>Parcela</th>
+          <th>Amortização</th>
+          <th>Juros</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    
+  </main>
+  <script src="./script.js"></script>
+</body>
+</html>
